@@ -5,7 +5,10 @@
 #          Run the following commands to install mssql-tools and unixodbc-dev
 # Bron: https://www.progress.com/tutorials/odbc/connect-to-sql-server-linux-on-docker-via-odbc-driver
 
-# Run this script on bash commandline in container
+# Start in de container bash
+docker exec -i -t sql1 /bin/bash
+
+# Run onderstaande commandos in container
 
 # check Ubuntu Linux version in Container
 cat /etc/lsb-release

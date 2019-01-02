@@ -1,3 +1,4 @@
 # File: 080_afmaken.txt
 
-Deze file nog aanvullen met de commando's tbv het instaleren van de ODBC driver onder Unbuntu 16.04
+1. script run.sh aanpassen dat dit script ook scripts in de container kan draaien mbv het docker exec command
+2. Deze file nog aanvullen met de commando's tbv het instaleren van de ODBC driver onder Unbuntu 16.04
